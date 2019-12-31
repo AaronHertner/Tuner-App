@@ -1,0 +1,22 @@
+{
+  "name": "Tuna",
+  "version": "1.0.0",
+  "description": "An app for versatile tuning of a guitar",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . Tuna --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Tuna\"",
+    "package-linux": "electron-packager . Tuna --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/icon.png --prune=true --out=release-builds"
+  },
+  "author": "Aaron Hertner",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "electron": "^7.1.7",
+    "electron-packager": "^14.1.1"
+  }
+}

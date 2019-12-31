@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tuna</title>
+    <script src="page.js"></script>
+    <link rel="stylesheet" href="../styles/mainStyle.css">
+  </head>
+
+  <body  style="background-color:#353b48">
+    <div class="w3-margin-left">
+      <h1 class="aaron-header">Tuna</h1>
+      <h3 class="aaron-header"id="tuningmode">Standard</h3>
+
+      <div id="chordbuttons">
+        <button class="aaron-btn" type="button" id="6" onclick="E.play()">E</button>
+        <button class="aaron-btn" type="button" id="5" onclick="A.play()">A</button>
+        <button class="aaron-btn" type="button" id="4" onclick="HiD.play()">HiD</button>
+        <button class="aaron-btn" type="button" id="3" onclick="G.play()">G</button>
+        <button class="aaron-btn" type="button" id="2" onclick="B.play()">B</button>
+        <button class="aaron-btn" type="button" id="1" onclick="HiE.play()">HiE</button>
+      </div></br></br>
+
+      <div id="altbuttons">
+        <button class="w3-btn" style="color:#ffffff" id="edit" onclick="edit()">EDIT</button>
+        <button class="w3-btn" style="color:#ffffff" id='load' onclick="load()">LOAD</button>
+        <button class="w3-btn" style="color:#ffffff" id='save' onclick="toggle_save_form()">SAVE</button>
+        <button class="w3-btn" style="color:#ffffff" id="strum" onclick="strum()">STRUM</button>
+        <div id="saveform" style="display:none">
+          <br/>
+          <input id="filename"></input>
+          <button class="w3-btn w3-indigo" onclick="save()">CONFIRM</button>
+          <button class="w3-btn w3-indigo" onclick="toggle_save_form()">CANCEL</button>
+        </div>
+      </div>
+
+      <div id='editform'>
+        <br/>
+      </div>
+
+      <div id='loadform'>
+        <br/>
+      </div>
+    </div>
+  </body>
+
+  <!--Footer Information-->
+  <footer class='aaron-footer'>
+      <p>
+        &copy;  | Designed by Aaron Hertner (Highsinger) |
+      </p>
+      <a href='https://aaronhertner.github.io/aaronhertner/' target='_blank'>
+        https://aaronhertner.github.io/aaronhertner/
+      </a>
+  </footer>
+</html>
+
+<!-- !-_-! -->

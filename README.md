@@ -1,4 +1,4 @@
-![](assets/Tuna-Main.png)		
+![](Tuna-Main.png)		
 # Author    
 Aaron Hertner		
 30/12/2019		

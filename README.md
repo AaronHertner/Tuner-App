@@ -4,26 +4,26 @@ Aaron Hertner
 https://aaronhertner.github.io/aaronhertner/
 
 # Source Files    
-assets
-  icons
-    mac
-      icon
-    png
-      icon
-    win
-      icon
-pages
-  mainpage.html
-  page.js
-sounds
-  *.wav
-styles
-  mainStyle.css
-tunings
-main.js
-package-lock.json
-package.json
-README.md
+assets		
+  icons		
+    mac		
+      icon		
+    png		
+      icon		
+    win		
+      icon		
+pages		
+  mainpage.html		
+  page.js		
+sounds		
+  *.wav		
+styles		
+  mainStyle.css		
+tunings		
+main.js		
+package-lock.json		
+package.json		
+README.md		
 
 # How To Use
 - run 'npm install' to install all dependencies

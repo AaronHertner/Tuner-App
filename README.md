@@ -1,9 +1,8 @@
 ![](Tuna-Main.png)		
 # Author    
-Aaron Hertner		
-30/12/2019		
-https://aaronhertner.github.io/aaronhertner/		
-
+Aaron Hertner  
+30/12/2019  
+https://aaronhertner.github.io/aaronhertner/  
 # How To Use
 - run 'npm install' to install all dependencies
 - to run navigate to the project directory and run 'npm start'
